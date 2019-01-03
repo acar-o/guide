@@ -3,8 +3,13 @@ title: Use the parseInt Function with a Radix
 ---
 ## Use the parseInt Function with a Radix
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function-with-a-radix/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+function convertToInteger(str) {
 
+  var a = (str); //first we create a variable for str.
+  var b = parseInt(a,2); //then, we cerate our second variable to use "parseInt()" and to determine our radix,
+  return b; // finally, we want our main calculation "b" to return.
+}
+
+convertToInteger("10011");
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
